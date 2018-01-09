@@ -1,0 +1,17 @@
+#Metamask {
+  img {
+    margin: 40px auto;
+    margin-bottom: 80px;
+  }
+  button {
+    a {
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+  .good, .install, .unlock {
+    display: none;
+  }
+}

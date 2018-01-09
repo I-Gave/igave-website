@@ -1,0 +1,83 @@
+.getmeta {
+  .cta-container {
+    display: none;
+  }
+
+  .web3 {
+    display: none;
+  }
+
+  .noweb3 {
+    display: block;
+  }
+}
+
+.web3 {
+  display: block;
+}
+
+.noweb3 {
+  display: none;
+}
+
+.navbar {
+  .social-container {
+    margin: 6px;
+  }
+  img {
+    margin-left: 12px;
+  }
+}
+
+.promo-section {
+  padding-top: 90px;
+  padding-bottom: 180px;
+  .headline {
+    margin-bottom: 0px;
+  }
+  .product-holder {
+    img {
+      max-width: 100%;
+      max-height: 665px;
+    }
+  }
+}
+
+.icon-logo {
+  height: 77%;
+}
+
+.item-title {
+  text-align: center;
+}
+
+.item-inner {
+  .profile-image {
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .name {
+    color: #51597e;
+  }
+}
+
+.whitepaper {
+  color: #fff;
+  text-decoration: underline;
+  &:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+a {
+  color: #51597e;
+  -webkit-transition: all 0s;
+
+  &:hover {
+    text-decoration: underline;
+    color: #51597e;
+  }
+}
