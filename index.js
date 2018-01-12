@@ -6,7 +6,6 @@ const bodyParser = require('body-parser');
 const sass = require('node-sass');
 const fs = require('fs');
 const API = require('./lib/routes');
-const socket = require('./lib/socket');
 const CSS = require('clean-css');
 const minifier = new CSS();
 const uglifier = require('./util/uglify');
@@ -16,8 +15,6 @@ uglifier.start();
 
 const app = express();
 app.use(helmet());
-
-socket();
 
 app.engine('.hbs', exphbs({
   extname: '.hbs',
